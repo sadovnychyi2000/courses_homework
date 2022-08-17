@@ -1,0 +1,52 @@
+.sidebar {grid-area: sidebar;}
+.header {grid-area: header;}
+.main {grid-area: main;}
+.footer {grid-area: footer;}
+
+.grid-box{
+ display: grid;
+ grid-template-areas:
+ 'sidebar header'
+  'sidebar main'
+  'sidebar footer' ;
+grid-template-columns: 30% 70%;
+grid-template-rows: 100px 500px 100px;
+text-align: center;
+}
+.sidebar{
+display: flex;
+background-color: rgb(132, 106, 224);
+align-items: center;
+justify-content: center;
+}
+.header{
+display: flex;
+background-color: rgb(131, 192, 192);
+align-items: center;
+justify-content: center;
+
+}
+.main{
+display: flex;
+background-color: rgb(204, 114, 197);
+align-items: center;
+justify-content: center;
+}
+.footer{
+display: flex;
+background-color: rgb(243, 230, 53);
+align-items: center;
+justify-content: center;
+}
+/*адптив 390px*/
+@media(max-width:390px){
+.grid-box {
+    grid-template-areas:
+      "Header"
+      "Sidebar"
+      "Main "
+      "Footer ";
+    grid-template-columns: auto;
+    grid-template-rows: 100px 150px 500px 100px;
+  }
+}

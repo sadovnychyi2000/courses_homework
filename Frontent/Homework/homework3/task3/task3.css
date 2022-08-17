@@ -1,0 +1,16 @@
+.transition{
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    /* transition-delay: 0.3s; */
+}
+.transition:hover{
+    width: 250px;
+    height: 250px;
+    background-color: darkviolet;
+    border: 4px dashed red;
+    border-radius: 50%;
+}

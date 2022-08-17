@@ -1,0 +1,43 @@
+.Photo1{grid-area: Photo1;}
+.Photo2{grid-area:Photo2;}
+.Photo3{grid-area:Photo3;}
+.Photo4{grid-area:Photo4;}
+.Photo5{grid-area: Photo5;}
+.grid-box{
+display: grid;
+grid-template-areas:
+        'Photo1 Photo1 Photo1 Photo1 Photo2 Photo2 Photo2 Photo2'
+        'Photo1 Photo1 Photo1 Photo1 Photo2 Photo2 Photo2 Photo2'
+        'Photo1 Photo1 Photo1 Photo1 Photo2 Photo2 Photo2 Photo2'
+        'Photo3 Photo3 Photo3 Photo3 Photo2 Photo2 Photo2 Photo2'
+        'Photo3 Photo3 Photo3 Photo3 Photo2 Photo2 Photo2 Photo2'
+        'Photo3 Photo3 Photo3 Photo3 Photo4 Photo4 Photo5 Photo5'
+        'Photo3 Photo3 Photo3 Photo3 Photo4 Photo4 Photo5 Photo5';
+/* grid-template-columns: 50% 50%;
+grid-template-rows: 100px 500px 100px; */
+gap: 10px;
+max-width: 100%;
+min-height: 1000px;
+
+text-align: center;
+}
+.Photo1{
+    background-image: url(./photo/earth.png);
+    /* background-color: aqua; */
+}
+.Photo2{
+    background-image: url(./photo/hand-drawn.jpg);
+    /* background-color: blue; */
+}
+.Photo3{
+    background-image: url(./photo/leaves.jpg);
+    /* background-color: blueviolet; */
+}
+.Photo4{
+    background-image: url(./photo/makro_zabor.jpg);
+    /* background-color: brown; */
+}
+.Photo5{
+    background-image: url(./photo/yarkiy_svet.jpg);
+    /* background-color: chartreuse; */
+}
