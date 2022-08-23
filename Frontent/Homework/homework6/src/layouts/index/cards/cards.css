@@ -1,0 +1,150 @@
+
+.cards-block{
+    position: relative;
+    background-color: #010208;
+    color: #FFFF;
+    align-items: center;
+    max-width: 854px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 7px;
+    z-index: 10;
+    
+}
+/*Awesome experience*/
+.awesome-content{
+    max-width: 840px;
+    position: relative;
+   
+}
+.awesome-play{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+}
+.awesome-title{
+    position: absolute;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    left: 25px;
+    top: 20px;
+}
+
+/*сортування*/
+.cards-sorting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 770px;
+    margin-bottom: 16px;
+    margin-left: 42px;
+    margin-right: 42px;
+}
+.cards-sorting-title{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 17.0986px;
+    line-height: 27px;
+}
+.cards-selector{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #5A5B6A;
+    border-radius: 4px;
+    padding: 7px 30px 6px 9px;   
+}
+.sorting-arrow{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+
+/* блок з картками */
+.cards{
+    display: flex;
+    flex-direction: row;
+    max-width: 770px;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40px;
+    margin-left: 42px;
+    margin-bottom: 22px;
+}
+.card{
+    max-width: 230px;
+    position: relative;
+    text-align: start;
+    
+}
+.cards-img-background{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+}
+.cards-title{
+    position: absolute;
+    font-weight: 600;
+    font-size: 7.29569px;
+    line-height: 9px;
+    bottom: 45px;
+    left: 14px;
+    text-decoration-line: underline;
+
+}
+.cards-description{
+    font-weight: 400;
+    font-size: 7.29569px;
+    line-height: 9px;
+    letter-spacing: -0.02em;
+    max-width: 82px;
+    position: absolute;
+    bottom: 10px;
+    left: 13px;
+}
+
+/* блок з номерами сторінок */
+.cards-pages{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+max-width: 854px;
+gap: 10px;
+text-align: center;
+
+}
+.cards-pages_item{
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #DFE3E8;
+    border-radius: 4px;
+    color: #010208;
+    padding: 5px 4px;
+    
+}
+.cards-pages_arrow-rigth{
+background: #FFFFFF;
+border: 1px solid #DFE3E8;
+border-radius: 4px;
+padding: 5px 10px;
+}
+.cards-pages_arrow-left{
+    background: #919EAB;
+    opacity: 0.5;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+/*z-index*/
+.cards-elipse{
+position: absolute;
+z-index: -1;
+left: 0px;
+bottom: -5px;
+}

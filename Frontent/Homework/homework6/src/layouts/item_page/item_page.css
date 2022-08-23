@@ -1,0 +1,139 @@
+.item_page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 855px;
+    background: linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%, #010101 34.11%, #010101 36.21%, #010101 100%);
+    box-shadow: 14px 31px 38px rgba(24, 23, 55, 0.58);
+    color: #FFFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+    z-index: -1;
+}
+.item_page-img{
+    max-width: 738px;
+    max-height: 488px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+.item_page-title{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    text-decoration-line: underline;
+    margin-bottom: 24px;
+    z-index: 2;
+}
+.item_page-description{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    max-width: 738px;
+    z-index: 2; 
+}
+.item_page-elipse_top{
+position: absolute;
+z-index: 1;
+top: 0px;
+}
+.item_page-elipse_left{
+position: absolute;
+z-index: 1;
+left: 0px;
+bottom: 10px;
+}
+.item_page-elipse_right{
+position: absolute;
+z-index: 1;
+right: 0px;
+bottom: 0px;    
+}
+/*Адаптив 850px*/
+@media(max-width: 850px){
+.item_page-img {
+        max-width: 437px;
+        margin-bottom: 32px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.item_page-description {
+    max-width: 470px;
+    font-size: 14px;
+}
+.item_page {
+    
+}
+}
+/*Адаптив 700px*/
+@media(max-width:700px){
+.item_page-img {
+        max-width: 330px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .item_page-title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .item_page-description {
+        max-width: 430px;
+        font-size: 11px;
+    }
+    
+}
+@media (max-width: 575px){
+.item_page {
+   padding-right: 30px;
+}
+.item_page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    z-index: 10px;
+} 
+.item_page-word{
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    z-index: 10px;
+}
+.item_page-lines{
+    z-index: 10px;
+}
+.item_page-img {
+    max-width: 215px;
+    margin-bottom: 22px;
+    min-height: 185px;
+    z-index: 10px;
+}
+.item_page-title {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.item_page-description {
+    text-align: center;
+    max-width: 470px;
+    font-size: 7px;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+.content{
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+}

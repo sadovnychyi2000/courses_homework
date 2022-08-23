@@ -1,0 +1,147 @@
+.adding-card{
+  max-width: 854px;
+  max-height: 522px;
+  background: #09010E;
+  color: #FFFF;
+display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.adding-card-background{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background-img{
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+.background-title{
+    position: absolute;
+    top: 65px;
+    left: 260px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+.new_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.new_card-title{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.input-name{
+    font-family: 'Mulish', sans-serif;
+    max-width: 560px;
+    background: #000000;
+    border: 2px solid #C8D1E6;
+    border-radius: 5px;
+    padding: 18px 370px 18px 32px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 16px;
+}
+.input-description{
+        font-family: 'Mulish', sans-serif;
+        max-width: 560px;
+        background: #000000;
+        border: 2px solid #C8D1E6;
+        border-radius: 5px;
+        padding: 18px 370px 18px 32px;
+        margin-bottom: 32px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 16px;
+}
+.input-img_name{
+    font-family: 'Mulish', sans-serif;
+    max-width: 560px;
+    background: #000000;
+    border: 2px solid #C8D1E6;
+    border-radius: 5px;
+    padding: 18px 370px 18px 32px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 16px;
+}
+.btn_add{   
+font-family: 'Mulish', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 320px;
+height: 47px;
+background: #9F62BB;
+border: 1px solid #000000;
+border-radius: 5px;
+margin-bottom: 32px;
+}
+/*Адаптив 700px*/
+@media(max-width: 700px) {
+.input-img_name {
+    padding: 18px 200px 18px 32px;
+}
+.input-description {
+    padding: 18px 200px 18px 32px;
+}
+.input-name {
+    padding: 18px 200px 18px 32px;
+}
+}
+/*Адаптив 575px*/
+@media(max-width: 575px){
+.sign_in-header {
+    display: flex;
+    flex-direction: row;
+    gap: 225px;
+    margin-bottom: 30px;
+}
+.header-word {
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.3516px;
+    line-height: 29px;
+}
+.input-img_name {
+    padding: 18px 60px 18px 32px;
+}
+
+.input-description {
+    padding: 18px 60px 18px 32px;
+}
+
+.input-name {
+    padding: 18px 60px 18px 32px;
+}
+.btn_add {
+    width: 230px;
+}
+}

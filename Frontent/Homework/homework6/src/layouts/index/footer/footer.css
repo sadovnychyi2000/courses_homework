@@ -1,0 +1,66 @@
+
+.foooter-background{
+     background-color: #010208;
+     color: #FFFF;
+     max-width: 854px;
+     margin-left: auto;
+     margin-right: auto;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    max-width: 768px;
+    gap: 80px;
+    background: linear-gradient(180deg, #AA14F0 -42.59%, rgba(0, 0, 0, 0) -42.59%, #AA14F0 -42.58%, rgba(170, 20, 240, 0.18) 4.35%, rgba(151, 60, 68, 0.055) 99.99%, rgba(185, 54, 245, 0) 100%);
+    border-radius: 7px;
+    padding-left: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.email-form-title{
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 16.0345px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+}
+.email-form-description{
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+letter-spacing: 0.04em;
+max-width: 187px;
+margin-bottom: 13px;
+
+}
+.email-input{
+font-family: 'Inter', sans-serif;
+background: linear-gradient(180deg, #AA14F0 -42.59%, rgba(0, 0, 0, 0) -42.59%, #CB8DE8 -42.58%, rgba(203, 143, 232, 0.18) 4.35%, rgba(151, 60, 68, 0.055) 99.99%, rgba(199, 137, 228, 0) 100%);
+box-shadow: inset 0px -9.72759px 16.2127px rgba(255, 255, 255, 0.03);
+backdrop-filter: blur(12.1595px);
+border-radius: 1.62127px;
+font-weight: 400;
+font-size: 6.48506px;
+line-height: 11px;
+letter-spacing: -0.07em;
+color: rgba(224, 163, 201, 0.56);
+padding-top: 4px;
+padding-bottom: 3px;
+padding-left: 6px;
+}
+.email-btn{
+    background: linear-gradient(99.99deg, #B936F5 -21.45%, #C64C85 100%, #F1005B 100%);
+    border-radius: 2.44456px;
+    font-weight: 700;
+    font-size: 6.96482px;
+    line-height: 8px;
+    font-family: 'Inter', sans-serif;
+    padding: 5px 5px 5px 13px;
+    max-height: 18px;
+}
+.footer-hands-img {
+    z-index: 10px;
+}

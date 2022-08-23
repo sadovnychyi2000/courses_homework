@@ -1,0 +1,58 @@
+
+.company{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background: linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%, #010101 34.11%, #010101 36.21%, #010101 100%);
+    color: #FFFF;
+    max-width: 854px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+.company-promo{
+    max-width: 250px;
+}
+.company-title{
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 18.817px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    margin-bottom: 22px;
+}
+.company-description{
+    font-family: 'Inter';
+    font-style: normal;
+     font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+.company-features{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 160px;
+    column-gap: 40px;
+    row-gap: 20px;
+}
+.feature-logo{
+    margin-bottom: 6px;
+}
+.feature-title{
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 9px;
+    letter-spacing: 0.03em;
+}
+.company-elips_left{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: -50px;
+}
