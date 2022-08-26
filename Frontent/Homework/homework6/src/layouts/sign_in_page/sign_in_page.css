@@ -1,4 +1,7 @@
 
+.sign_in-header{
+    display: none;
+}
 .form-sign_in{
     max-width: 855px;
     background: #09010E;
@@ -79,7 +82,6 @@
 .sign_in-header{
     display: flex;
     flex-direction: row;
-    max-width: 370px;
     justify-content: space-between;
     margin-bottom: 20px;
 }
@@ -87,7 +89,7 @@
     font-family: 'IM Fell Great Primer SC', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 23.3516px;
+    font-size: 23px;
     line-height: 29px;
 }
 .form-sign_in {
@@ -95,7 +97,7 @@
     color: #FFFF;
     margin-right: auto;
     margin-left: auto;
-    padding: 4px 16px;
+    padding: 10px 20px 10px 20px;
 }
     .form-btn-sign_in {
         padding: 12px 100px;

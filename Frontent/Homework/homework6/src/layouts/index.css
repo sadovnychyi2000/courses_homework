@@ -1,6 +1,12 @@
 
 
-
+body{
+   background-color:#010208 ; 
+}
+/*header-adaptive*/
+.header-adaptiv{
+    display: none;
+}
 /*header-block*/
 .header {
     display: flex;
@@ -64,7 +70,7 @@ z-index: 10;
 }
 
 .header-btn:hover::after {
-    width: 10px;
+    width: 100%;
 }
 
 .header-elipse {
@@ -268,26 +274,28 @@ z-index: 10;
 }
 
 /*Awesome experience*/
+.awesome-background{
+}
 .awesome-content {
-    max-width: 840px;
-    position: relative;
-
 }
-
 .awesome-play {
-    position: absolute;
+    /* position: absolute;
     right: 60px;
-    top: 10px;
+    top: 10px; */
 }
-
+.internal-content{    
+display: flex;
+justify-content: center;
+}
 .awesome-title {
-    position: absolute;
+    /* position: absolute; */
     font-family: 'Orbitron', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 23px;
-    left: 25px;
-    top: 20px;
+    max-width: 300px;
+    /* left: 25px;
+    top: 20px; */
 }
 
 /*сортування*/
@@ -336,7 +344,8 @@ z-index: 10;
     margin-bottom: 22px;
 }
 
-.card {
+.card,
+.card-adaptiv {
     max-width: 230px;
     position: relative;
     text-align: start;
@@ -469,7 +478,8 @@ z-index: 10;
     z-index: 10;
 }
 
-.experience {
+.experience,
+.experience-adaptiv {
     background: linear-gradient(180deg, #AA14F0 -42.59%, rgba(0, 0, 0, 0) -42.59%, #CB8DE8 -42.58%, rgba(203, 143, 232, 0.18) 4.35%, rgba(151, 60, 68, 0.055) 99.99%, rgba(199, 137, 228, 0) 100%);
     border-radius: 6.91237px;
     position: relative;
@@ -525,6 +535,12 @@ z-index: 10;
     position: absolute;
     z-index: 1;
     right: 10px;
+}
+.clients-arrow_left{
+display: none;
+}
+.clients-arrow_right{
+display: none;
 }
 
 /*company-block*/
@@ -726,14 +742,17 @@ z-index: 10;
    }
   /*блок з картками*/
   .awesome-background{
-    max-width: 680px;
   }
   .awesome-play{
     max-width: 130px;
-    right: 155px;
+    /* right: 155px; */
   }
+  .internal-content {
+      gap: 50px;
+    }
   .awesome-title {
     font-size: 15px;
+     max-width: 240px;
     }
   .cards-sorting-title {
     font-size: 15px;
@@ -938,13 +957,14 @@ z-index: 10;
     }
     .awesome-play {
         max-width: 85px;
-        right: 165px;
+        /* right: 165px; */
     }
     .awesome-title {
         font-size: 10px;
         line-height: 15px;
-        left: 25px;
-        top: 15px;
+        max-width: 180px;
+        /* left: 25px;
+        top: 15px; */
     }
     .cards-sorting {
         max-width: 490px;
@@ -1065,9 +1085,44 @@ max-width: 3px;
 
 /*Адаптив 575px*/
 @media(max-width: 575px) {
-/*блок-header*/    
+/*блок-header*/
+.header{
+    display: none;
+}
+.header-adaptiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 15px;
+    margin-bottom: 10px;
+}
+.header-word {
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+    color: #FFF;
+}
+.header-burger-menu-list{
+ display: none;
+}
 .header {
     padding: 10px 60px 20px 30px;
+}
+.header-burger-menu-list{
+    color: #fff;
+}
+.header-burger-menu-list{
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+}
+.header-adaptiv-btn:hover {
+    color: #BC3CD8;
 }
 /*блок-hero*/
 .hero-content {
@@ -1197,20 +1252,20 @@ max-width: 3px;
  }
 /*блок-cards*/ 
 .awesome-background {
-    max-width: 380px;
-    margin-bottom: 40px;
+    max-width: 400px;
+    margin-bottom: 5px; 
 }
 .awesome-play {
-    max-width: 85px;
-    right: 20px;
-    top: 5px;
+    max-width: 60px;
+    /* right: 20px;
+    top: 5px; */
 }
 .awesome-title {
-    font-size: 14px;
-    line-height: 18px;
-    left: 20px;
-    top: 2px;
+    font-size: 10px;
+    line-height: 15px;
+    max-width: 160px;
 }
+
 .cards-sorting-title {
     font-size: 14px;
     line-height: 27px;
@@ -1250,12 +1305,16 @@ max-width: 3px;
 .cards-pages {
     margin-left: 23px;        /*Error*/
 }
+.card-adaptiv{
+  display: none;
+}
 
 /*Clients-блок*/
 .clients-feedback {
     display: flex;
     flex-direction: column; 
-    padding:24px 28px 0px 28px;
+    padding:24px 28px 10px 28px;
+    margin-bottom: 10px;
 }
 .feedback-title {
     font-size: 18px;
@@ -1298,13 +1357,18 @@ max-width: 3px;
     position: relative;
     padding: 3px 10px 4px 13px;
 }
+.experience-adaptiv{
+  display: none;
+}
 .clients-arrow_left{
+ display: block;   
  position: absolute;   
  max-width: 8px;
  left: 0px;
  top: 20px;
 }
 .clients-arrow_right{
+display: block;
 position: absolute;
 max-width: 8px;
 right: 0px;

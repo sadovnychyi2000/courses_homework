@@ -3,12 +3,13 @@
   max-height: 522px;
   background: #09010E;
   color: #FFFF;
-display: flex;
+  display: flex;
     align-items: center;
     flex-direction: column;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px 20px;
 }
 .adding-card-background{
     display: flex;
@@ -102,6 +103,9 @@ background: #9F62BB;
 border: 1px solid #000000;
 border-radius: 5px;
 margin-bottom: 32px;
+}
+.sign_in-header{
+    display: none;
 }
 /*Адаптив 700px*/
 @media(max-width: 700px) {
